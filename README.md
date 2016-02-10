@@ -4,7 +4,7 @@ This repository performs tabletop_operation using Kinect and PCL libraries. The 
 
 The steps to run this is:
 
-$roscore //
+$roscore 
 $roslaunch openni_launch openni.launch (I have used a kinect xbox 360)
 $rosrun tabletop_operation planar input:=/camera/depth/points (to view the planar segmentation)
 $rosrun tabletop_operation cluster_euclid input:=/camera/depth/points  (to view the euclidean clustering)
